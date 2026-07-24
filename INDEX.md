@@ -241,7 +241,11 @@
 - `ai-productivity-stack` 负责"怎么提效"：工具组合、提示词工程、工作流自动化
 - `xiaohongshu-hotspot` 负责"怎么运营"：热点规划、达人矩阵、转化优化
 - `wealth-narrative` 负责"怎么创富"：叙事投资、资金配置、产业重置
-- 十者结合，覆盖从商业想法到技术落地、市场增长、决策能力、个人成长、财富管理、趋势洞察、效率提升、社媒运营和叙事创富的完整人生链路
+- `openclaw-agent` 负责"怎么执行"：AI代理框架实战、安全工作流设计、方法论产品化、七大场景落地
+- `data-analytics` 负责"怎么分析"：四层分析模型、数据清洗、可视化设计、A/B测试、SQL高级查询、数据治理、AI增强分析
+- `community-building` 负责"怎么连结"：分布式社区建设、"六共"价值观、组织架构设计、节点建设、治理机制、活动组织、知识沉淀
+- `cli-debugging` 负责"怎么排查"：CLI/Node.js 代理环境故障排查、环境变量继承、对照实验定位、排查弯路分析
+- 十五个技能结合，覆盖从商业想法到技术执行、市场增长、决策能力、个人成长、财富管理、趋势洞察、效率提升、社媒运营、叙事创富、AI代理落地、数据驱动分析、社区建设和故障排查的完整人生链路
 
 ---
 
@@ -272,6 +276,13 @@
 | 2026年小红书全年热点投放规划表 | `xiaohongshu-hotspot` 核心输入：全年热点日历、投放策略、达人矩阵、转化路径 |
 | 《钱从哪里来7：重置》（香帅，2025） | `wealth-narrative` 核心输入：叙事投资法、岛链化配置、产业重置、消费重置 |
 | 《决策算法100讲》（老喻，2024） | `decision-algorithms` 核心输入：EKB决策算法、连环7问、二阶理性、决策陷阱 |
+| 《OpenClaw入门指南 V4.0》（孤独大脑/Lonely Brain Research, 2026） | `openclaw-agent` 核心输入：AI Agent框架、三层架构、七大场景、安全防线、方法论产品化 |
+| "038 极简商务高级感"PPTX 商务演示模板 | `business-presentation` 核心输入：12种标准版式、配色方案、字体搭配、视觉排版规则、场景脚本 |
+| 《这些年我是如何入门Rust到实战项目开发》（daheige, 2026） | `rust-journey` 核心输入：Rust学习三大痛点、11大实战模块、环境配置、Go/PHP转Rust指南、高并发QA系统架构 |
+| 《AI人工智能知识大全 - 全方向深度指南》（洞察AI-Onlyone, 2026） | `ai-knowledge-compendium` 核心输入：30+核心方向知识体系、学习路线图、技术选型对比、LLM全流程、Prompt Engineering、MLOps、AI安全合规 |
+| 2025-2026 数据分析领域综合研究（Tufte可视化原则、DAMA-DMBOK、BI工具对比、Polars/Pandas、SQL高级模式、A/B测试框架） | `data-analytics` 核心输入：四层分析模型、数据清洗流程、可视化设计原则、工具选型指南、统计学核心、数据Storytelling、数据治理、AI增强分析趋势 |
+| 《706青年社区报告 2012-2026》（706支持中心，2026） | `community-building` 核心输入：分布式社区发展历程、"六共"价值观体系、组织架构设计、三种节点形态、社区治理机制、活动组织流程、知识库建设、包容性设计 |
+| 《Claudian 会话卡死排查记录 2026-07-12》 | `cli-debugging` 核心输入：Node.js代理行为、环境变量继承陷阱、TUN模式局限性、对照实验定位法、排查弯路分析、修复持久化方案 |
 
 ---
 
@@ -351,6 +362,80 @@
 
 ---
 
+### 16. openclaw-agent
+**定位**：AI Agent 框架实战与安全工作流设计工作环境  
+**核心能力**：
+- AI Agent 三条判别标准（Plan/Act/Observe）真伪检验
+- "超级实习生"心智模型与正确预期管理
+- OpenClaw 三层架构设计：输入层 → 引擎层 → 执行层
+- 七大应用场景完整落地：晨间简报、邮件自动化、知识库、投研周报、选题漏斗、工作流串联、方法论产品化
+- 五层安全防线：权限锁、预算锁、环境锁、思考保留区、决策审计
+- 投入-回报决策矩阵：判断哪些任务适合交给 AI Agent
+- Prompt 质量检查表和资产版本化管理
+- 48 小时入门训练营：从零到最小闭环
+
+**触发场景**：
+- "AI代理""AI Agent""OpenClaw""怎么用AI代理"
+- "自动化工作流""AI帮我做事""AI执行任务"
+- "晨间简报""邮件自动化""知识库搭建"
+- "投研周报""选题漏斗""内容创作管道"
+- "方法论产品化""超级个体""数字分身"
+- "AI安全""权限控制""成本控制""上下文腐烂"
+- "Prompt工程""岗位说明书""JD思维"
+
+**技能路径**：`C:\Users\22812\.trae\skills\openclaw-agent\SKILL.md`
+
+---
+
+### 17. business-presentation
+**定位**：极简商务高级感演示设计工作环境  
+**核心能力**：
+- 12 种标准版式模板：封面、目录、产品展示、设备采购、图文并排、大图叙事、三栏服务、数据统计、数据亮点、多产品网格、合作伙伴墙、联系页
+- 极简设计三层要素：信息架构 + 视觉语言 + 品质细节
+- 4 套配色方案：经典商务蓝、高端科技、温暖专业、极简黑白
+- 字体搭配规范（现代无衬线/经典衬线）
+- 视觉排版 7 条规则：对齐、焦点、字号、图片质量、数据优先、一致性、做减法
+- 3 种场景脚本：投资路演、客户提案、内部汇报
+- 从内容定位 → 信息架构 → 文案精炼 → 视觉设计的完整流程
+
+**触发场景**：
+- "商务演示""PPT设计""演示文稿""Slide Deck"
+- "路演PPT""投资路演""Pitch Deck""融资演示"
+- "客户提案""方案展示""商务提案"
+- "极简设计""高级感""商务风格"
+- "PPT配色""字体搭配""排版规范"
+- "汇报PPT""工作汇报""年终总结"
+- "演示设计""幻灯片设计""商业演示"
+
+**技能路径**：`C:\Users\22812\.trae\skills\business-presentation\SKILL.md`
+
+---
+
+### 18. rust-journey
+**定位**：Rust 从入门到实战项目开发工作环境  
+**核心能力**：
+- Rust 学习三大痛点诊断与突破：陡峭学习曲线、稀缺实战资料、理论工程鸿沟
+- 11 大实战模块架构指导：模块化编程、JSON、Web、CLI、crontab、数据库缓存、消息队列、FFI、并发异步、高并发QA系统
+- 从 Go/PHP 转 Rust 的心智模型转换指南
+- 环境配置标准：Windows(WSL+VS C++ Build Tools)、Linux/macOS、rustup 版本管理
+- 四阶段学习路径：基础语法 → 模块化实战 → 后端工程 → 并发与综合项目
+- 标准后端服务项目结构和 Cargo.toml 配置模板
+- 高并发 QA 问答系统架构设计（终极实战项目）
+
+**触发场景**：
+- "Rust入门""学Rust""Rust学习""怎么学Rust"
+- "Rust实战""Rust项目""Rust开发""Rust工程"
+- "所有权""借用""生命周期""Rust编译器报错"
+- "Go转Rust""PHP转Rust""技术转型"
+- "Rust环境配置""rustup""Cargo配置"
+- "Rust Web开发""Rust异步编程""Rust并发"
+- "Rust数据库""Rust消息队列""Rust FFI"
+- "Rust实战项目开发""高并发系统"
+
+**技能路径**：`C:\Users\22812\.trae\skills\rust-journey\SKILL.md`
+
+---
+
 ## 技能关系图谱
 
 ```
@@ -365,6 +450,20 @@
   thinking-models    global-investment    social-variables
         |                                      |
   ai-productivity-stack              wealth-narrative
+        |
+  openclaw-agent  ← 技术执行引擎（为所有技能提供 Agent 落地能力）
+        |
+  business-presentation  ← 视觉表达引擎（为所有技能提供高级感演示设计）
+        |
+  rust-journey  ← 系统编程引擎（为所有技能提供高性能 Rust 后端实现能力）
+        |
+  ai-knowledge-compendium  ← AI 知识导航引擎（为所有技能提供 AI 全技术栈知识地图和学习路径）
+        |
+  data-analytics  ← 数据分析引擎（为所有技能提供数据驱动决策和可视化分析能力）
+        |
+  community-building  ← 社区连结引擎（为所有技能提供分布式社区建设和治理方法论）
+        |
+  cli-debugging  ← 故障排查引擎（为所有技能提供 CLI/环境变量/网络问题的排查方法论）
 ```
 
 ## 快速路由表（续）
@@ -380,7 +479,248 @@
 | 从自媒体定位到爆款内容 | `content-dividend` + `xiaohongshu-hotspot` | 两者结合使用 |
 | 从内容创作到品牌变现 | `content-dividend` + `ai-native-gtm` | 两者结合使用 |
 | 从自媒体到个人创业 | `content-dividend` + `opc-startup` | 两者结合使用 |
+| 我需要AI代理入门指导 | `openclaw-agent` | [SKILL.md](C:\Users\22812\.trae\skills\openclaw-agent\SKILL.md) |
+| 我需要AI安全框架 | `openclaw-agent` | [SKILL.md](C:\Users\22812\.trae\skills\openclaw-agent\SKILL.md) |
+| 我需要自动化工作流设计 | `openclaw-agent` | [SKILL.md](C:\Users\22812\.trae\skills\openclaw-agent\SKILL.md) |
+| 我需要晨间简报/邮件自动化 | `openclaw-agent` | [SKILL.md](C:\Users\22812\.trae\skills\openclaw-agent\SKILL.md) |
+| 我需要方法论产品化指导 | `openclaw-agent` | [SKILL.md](C:\Users\22812\.trae\skills\openclaw-agent\SKILL.md) |
+| 我需要Prompt质量检查 | `openclaw-agent` | [SKILL.md](C:\Users\22812\.trae\skills\openclaw-agent\SKILL.md) |
+| 我需要AI Agent判别标准 | `openclaw-agent` | [SKILL.md](C:\Users\22812\.trae\skills\openclaw-agent\SKILL.md) |
+| 从自动化到方法论产品化 | `openclaw-agent` + `opc-startup` | 两者结合使用 |
+| 从AI代理到安全执行 | `openclaw-agent` + `model-harness` | 两者结合使用 |
+| 我需要商务演示设计 | `business-presentation` | [SKILL.md](C:\Users\22812\.trae\skills\business-presentation\SKILL.md) |
+| 我需要投资路演PPT | `business-presentation` | [SKILL.md](C:\Users\22812\.trae\skills\business-presentation\SKILL.md) |
+| 我需要客户提案设计 | `business-presentation` | [SKILL.md](C:\Users\22812\.trae\skills\business-presentation\SKILL.md) |
+| 我需要工作汇报PPT | `business-presentation` | [SKILL.md](C:\Users\22812\.trae\skills\business-presentation\SKILL.md) |
+| 我需要PPT配色方案 | `business-presentation` | [SKILL.md](C:\Users\22812\.trae\skills\business-presentation\SKILL.md) |
+| 我需要字体搭配指导 | `business-presentation` | [SKILL.md](C:\Users\22812\.trae\skills\business-presentation\SKILL.md) |
+| 我需要极简设计风格 | `business-presentation` | [SKILL.md](C:\Users\22812\.trae\skills\business-presentation\SKILL.md) |
+| 从商业方案到专业演示 | `business-presentation` + `opc-startup` | 两者结合使用 |
+| 从AI方案到客户提案 | `business-presentation` + `ai-native-gtm` | 两者结合使用 |
+| 我需要Rust入门指导 | `rust-journey` | [SKILL.md](C:\Users\22812\.trae\skills\rust-journey\SKILL.md) |
+| 我需要Rust学习路径 | `rust-journey` | [SKILL.md](C:\Users\22812\.trae\skills\rust-journey\SKILL.md) |
+| 我需要Rust实战项目 | `rust-journey` | [SKILL.md](C:\Users\22812\.trae\skills\rust-journey\SKILL.md) |
+| 我需要Rust环境配置 | `rust-journey` | [SKILL.md](C:\Users\22812\.trae\skills\rust-journey\SKILL.md) |
+| Go/PHP转Rust指导 | `rust-journey` | [SKILL.md](C:\Users\22812\.trae\skills\rust-journey\SKILL.md) |
+| Rust所有权/借用/生命周期 | `rust-journey` | [SKILL.md](C:\Users\22812\.trae\skills\rust-journey\SKILL.md) |
+| Rust并发/异步编程 | `rust-journey` | [SKILL.md](C:\Users\22812\.trae\skills\rust-journey\SKILL.md) |
+| 高并发系统架构设计 | `rust-journey` + `model-harness` | 两者结合使用 |
+| 从Rust学习到AI工程落地 | `rust-journey` + `openclaw-agent` | 两者结合使用 |
 
 ---
 
-*索引更新时间：2026-07-25*
+### 19. ai-knowledge-compendium
+**定位**：AI 全技术栈知识导航与学习路径规划工作环境  
+**核心能力**：
+- 30+ 核心方向知识体系总索引：从数学基础到前沿大模型、从理论到工程落地
+- AI 学习路线图五阶段规划：基础 → 入门 → 进阶 → 专精 → 工程
+- 技术选型对比：框架（PyTorch/TensorFlow/JAX）、向量数据库、Agent框架、部署方案
+- LLM 全流程指导：预训练 → SFT → RLHF/DPO → 部署 → 监控
+- Prompt Engineering 核心技巧：Zero-shot、Few-shot、CoT、ReAct、ToT
+- MLOps 工程化：模型部署、推理优化（ONNX/TensorRT/量化）、监控迭代
+- AI 安全与合规：对齐技术、对抗攻防、EU AI Act 风险分级
+- AI 商业化：SaaS 模式、创业趋势、行业应用（教育/金融/制造）
+- 前沿技术覆盖：MoE、具身智能、端侧AI、MCP协议、AI Agent
+- AI 面试高频考点和关键问题
+
+**触发场景**：
+- "AI知识大全""人工智能知识""AI技术全景""AI知识体系"
+- "怎么学AI""AI学习路线""AI入门""深度学习学习路径"
+- "PyTorch vs TensorFlow""深度学习框架对比""AI工具选型"
+- "大模型训练流程""LLM微调""LoRA""RLHF""DPO"
+- "RAG架构""向量数据库选型""AI Agent框架"
+- "Prompt Engineering""提示词工程""CoT""Few-shot"
+- "MLOps""模型部署""推理优化""TensorRT""ONNX"
+- "MoE""混合专家模型""DeepSeek架构"
+- "端侧AI""模型量化""GPTQ""AWQ""GGUF"
+- "AI安全""红队测试""对抗攻击""EU AI Act"
+- "AI商业化""AI创业""AI SaaS"
+- "具身智能""人形机器人""AI基础设施"
+- "AI面试题""机器学习面试""深度学习面试""大模型面试"
+
+**技能路径**：`C:\Users\22812\.trae\skills\ai-knowledge-compendium\SKILL.md`
+
+---
+
+## 快速路由表（续）
+
+| 用户意图 | 推荐技能 | 技能路径 |
+|----------|----------|----------|
+| 我需要AI学习路径 | `ai-knowledge-compendium` | [SKILL.md](C:\Users\22812\.trae\skills\ai-knowledge-compendium\SKILL.md) |
+| 我需要AI技术选型 | `ai-knowledge-compendium` | [SKILL.md](C:\Users\22812\.trae\skills\ai-knowledge-compendium\SKILL.md) |
+| 我需要LLM训练流程 | `ai-knowledge-compendium` | [SKILL.md](C:\Users\22812\.trae\skills\ai-knowledge-compendium\SKILL.md) |
+| 我需要Prompt Engineering | `ai-knowledge-compendium` | [SKILL.md](C:\Users\22812\.trae\skills\ai-knowledge-compendium\SKILL.md) |
+| 我需要MLOps部署方案 | `ai-knowledge-compendium` | [SKILL.md](C:\Users\22812\.trae\skills\ai-knowledge-compendium\SKILL.md) |
+| 我需要MoE架构知识 | `ai-knowledge-compendium` | [SKILL.md](C:\Users\22812\.trae\skills\ai-knowledge-compendium\SKILL.md) |
+| 我需要端侧AI部署 | `ai-knowledge-compendium` | [SKILL.md](C:\Users\22812\.trae\skills\ai-knowledge-compendium\SKILL.md) |
+| 我需要AI安全合规 | `ai-knowledge-compendium` | [SKILL.md](C:\Users\22812\.trae\skills\ai-knowledge-compendium\SKILL.md) |
+| 我需要AI商业化指导 | `ai-knowledge-compendium` | [SKILL.md](C:\Users\22812\.trae\skills\ai-knowledge-compendium\SKILL.md) |
+| 我需要AI面试准备 | `ai-knowledge-compendium` | [SKILL.md](C:\Users\22812\.trae\skills\ai-knowledge-compendium\SKILL.md) |
+| 从AI知识到工程落地 | `ai-knowledge-compendium` + `model-harness` | 两者结合使用 |
+| 从AI学习到Agent实战 | `ai-knowledge-compendium` + `openclaw-agent` | 两者结合使用 |
+| 从AI技术到Rust实现 | `ai-knowledge-compendium` + `rust-journey` | 两者结合使用 |
+
+---
+
+### 20. data-analytics
+**定位**：数据分析与可视化工作环境  
+**核心能力**：
+- 四层分析模型（描述→诊断→预测→规范）完整方法论
+- 数据清洗标准化流程（探查→去重→标准化→验证→修复→监控）
+- Tufte 经典可视化原则（数据墨水比、图形完整性、图表选型决策树）
+- Python 工具链选型（Pandas vs Polars 对比、NumPy/SciPy/Plotly）
+- BI 工具对比选型（Tableau/Power BI/Metabase/Superset/ECharts）
+- SQL 高级查询模式（窗口函数、CTE、同期群分析、漏斗分析、留存分析）
+- A/B 测试全流程（频率学派 + 贝叶斯两种方案、样本量计算、SRM检查）
+- 统计学核心概念（假设检验、p值、回归分析、贝叶斯统计、多重比较校正）
+- 数据 Storytelling 方法论（情境-冲突-解决方案框架、金字塔原理）
+- 数据仓库/数据湖/Lakehouse 架构选型（星型/雪花模型、ETL vs ELT）
+- 数据治理体系（DAMA-DMBOK、质量五维度、角色职责）
+- 2025-2026 新兴趋势（AI增强分析、数据网格、实时分析、语义层）
+
+**触发场景**：
+- "数据分析""数据可视化""报表设计""Dashboard"
+- "数据清洗""数据质量""ETL""数据管道"
+- "SQL窗口函数""CTE""同期群分析""漏斗分析""留存分析"
+- "A/B测试""实验设计""假设检验""统计显著性"
+- "Python数据分析""Pandas""Polars""数据处理"
+- "BI工具选型""Tableau""Power BI""Metabase""Superset"
+- "数据仓库""数据湖""星型模型""Snowflake"
+- "数据治理""数据质量""数据字典""dbt"
+- "数据叙事""数据报告""数据 storytelling"
+- "p值""置信区间""回归分析""贝叶斯"
+- "AI增强分析""自然语言查询数据""语义层"
+
+**技能路径**：`C:\Users\22812\.trae\skills\data-analytics\SKILL.md`
+
+---
+
+## 快速路由表（续）
+
+| 用户意图 | 推荐技能 | 技能路径 |
+|----------|----------|----------|
+| 我需要数据分析方法论 | `data-analytics` | [SKILL.md](C:\Users\22812\.trae\skills\data-analytics\SKILL.md) |
+| 我需要数据清洗方案 | `data-analytics` | [SKILL.md](C:\Users\22812\.trae\skills\data-analytics\SKILL.md) |
+| 我需要可视化设计指导 | `data-analytics` | [SKILL.md](C:\Users\22812\.trae\skills\data-analytics\SKILL.md) |
+| 我需要A/B测试设计 | `data-analytics` | [SKILL.md](C:\Users\22812\.trae\skills\data-analytics\SKILL.md) |
+| 我需要SQL高级查询 | `data-analytics` | [SKILL.md](C:\Users\22812\.trae\skills\data-analytics\SKILL.md) |
+| 我需要BI工具选型 | `data-analytics` | [SKILL.md](C:\Users\22812\.trae\skills\data-analytics\SKILL.md) |
+| 我需要数据叙事指导 | `data-analytics` | [SKILL.md](C:\Users\22812\.trae\skills\data-analytics\SKILL.md) |
+| 我需要数据仓库架构 | `data-analytics` | [SKILL.md](C:\Users\22812\.trae\skills\data-analytics\SKILL.md) |
+| 我需要数据治理方案 | `data-analytics` | [SKILL.md](C:\Users\22812\.trae\skills\data-analytics\SKILL.md) |
+| 我需要统计学知识 | `data-analytics` | [SKILL.md](C:\Users\22812\.trae\skills\data-analytics\SKILL.md) |
+| 从数据到可视化到决策 | `data-analytics` + `business-presentation` | 两者结合使用 |
+| 从A/B测试到增长优化 | `data-analytics` + `ai-native-gtm` | 两者结合使用 |
+| 从数据分析到自动化 | `data-analytics` + `openclaw-agent` | 两者结合使用 |
+| 从数据洞察到创业机会 | `data-analytics` + `opc-startup` | 两者结合使用 |
+| 从数据质量到AI落地 | `data-analytics` + `ai-knowledge-compendium` | 两者结合使用 |
+
+---
+
+### 21. community-building
+**定位**：分布式社区建设与治理工作环境  
+**核心能力**：
+- "六共"价值观体系（共居/共享/共学/共玩/共建/共创）及其实践方式
+- 社区发展模型：从单一中心到分布式多节点网络的转型路径
+- 个人/团队成长六阶段：开放进入→轻量参与→真实贡献→信任积累→角色升级→经验沉淀
+- 分布式组织架构设计：节点自治+支持中心协同+大会共识+轻量治理
+- 三种节点形态：城市客厅（实体）/流动客厅（临时）/生活实验室（深度实践）
+- 社区治理机制：贡献-信任-责任-权限逻辑、公共边界、反馈问责、规则修订
+- "小中心、大网络"结构设计与权限管理
+- 社区活动组织全流程：从真实问题到经验沉淀
+- 社区知识库建设：每个人都能共学、从实践中学习、保留过程与失败
+- 包容性与多元共生设计：平等进入、多元节点网络、降低隐性门槛
+- 公共基金闭环管理：申请→评审→拨付→执行→公示→复盘
+- 冲突处理机制：区分意见分歧与安全事件、利益回避复核
+
+**触发场景**：
+- "社区建设""社区运营""社区治理""分布式社区"
+- "706""青年空间""城市客厅""生活实验室"
+- "共居""共享""共学""共玩""共建""共创"
+- "社区组织架构""节点自治""支持中心"
+- "社区活动组织""社区知识库""经验沉淀"
+- "社区包容性""多元共生""降低门槛"
+- "社区冲突处理""公共议事""反馈机制"
+- "社区成长路径""角色升级""信任积累"
+- "公共基金管理""社区商业化"
+- "怎么建社区""怎么运营社群""社区治理怎么设计"
+
+**技能路径**：`C:\Users\22812\.trae\skills\community-building\SKILL.md`
+
+---
+
+## 快速路由表（续）
+
+| 用户意图 | 推荐技能 | 技能路径 |
+|----------|----------|----------|
+| 我需要社区建设方法论 | `community-building` | [SKILL.md](C:\Users\22812\.trae\skills\community-building\SKILL.md) |
+| 我需要社区治理设计 | `community-building` | [SKILL.md](C:\Users\22812\.trae\skills\community-building\SKILL.md) |
+| 我需要建立城市节点 | `community-building` | [SKILL.md](C:\Users\22812\.trae\skills\community-building\SKILL.md) |
+| 我需要社区活动组织 | `community-building` | [SKILL.md](C:\Users\22812\.trae\skills\community-building\SKILL.md) |
+| 我需要社区知识库建设 | `community-building` | [SKILL.md](C:\Users\22812\.trae\skills\community-building\SKILL.md) |
+| 我需要社区冲突处理 | `community-building` | [SKILL.md](C:\Users\22812\.trae\skills\community-building\SKILL.md) |
+| 我需要社区成长路径设计 | `community-building` | [SKILL.md](C:\Users\22812\.trae\skills\community-building\SKILL.md) |
+| 我需要社区包容性设计 | `community-building` | [SKILL.md](C:\Users\22812\.trae\skills\community-building\SKILL.md) |
+| 我需要公共基金管理 | `community-building` | [SKILL.md](C:\Users\22812\.trae\skills\community-building\SKILL.md) |
+| 从社区建设到商业落地 | `community-building` + `opc-startup` | 两者结合使用 |
+| 从社区运营到内容营销 | `community-building` + `content-dividend` | 两者结合使用 |
+| 从社区治理到数据分析 | `community-building` + `data-analytics` | 两者结合使用 |
+| 从社区活动到自动化 | `community-building` + `openclaw-agent` | 两者结合使用 |
+| 从社区知识到个人成长 | `community-building` + `thinking-models` | 两者结合使用 |
+
+---
+
+### 22. cli-debugging
+**定位**：CLI 与代理环境故障排查工作环境  
+**核心能力**：
+- Node.js 代理行为核心知识：只认环境变量，不读系统代理
+- 环境变量继承机制：终端启动 vs Dock/桌面启动 vs launchd 的差异
+- TUN 模式透明代理的局限性（本地回环、某些进程不可靠）
+- 四步标准排查流程：确认现象→对照实验→检查 env→检查 TCP
+- 排查命令速查：macOS/Windows/Linux 三平台命令
+- 决定性证据对照表：有 proxy vs 无 proxy 的二元对照
+- 修复方案三级优先级：应用配置(P0) > launchctl(P1) > shell profile(P2)
+- 排查弯路分析：7 个典型误导模式与核心教训
+- "之前能用现在不能用"类故障的根因定位方法
+- 同类故障速查决策树和快速修复检查清单
+- 各平台永久环境变量设置方法
+- Node.js 代理配置方式对比
+
+**触发场景**：
+- "CLI卡死""Node.js连不上""API请求超时""工具无响应"
+- "代理环境变量""http_proxy""https_proxy""HTTP_PROXY"
+- "环境变量继承""进程环境变量""ps env"
+- "系统代理""TUN模式""透明代理""scutil --proxy"
+- "Claudian卡死""Obsidian插件故障""Claude CLI"
+- "GUI启动CLI""Dock启动""launchd启动"
+- "之前能用现在不能用""没改配置但坏了"
+- "lsof""netstat""TCP连接检查"
+- "launchctl setenv""setx""永久环境变量"
+- "Node.js代理""global-agent""proxy-agent"
+- "排查方法论""对照实验""故障诊断"
+
+**技能路径**：`C:\Users\22812\.trae\skills\cli-debugging\SKILL.md`
+
+---
+
+## 快速路由表（续）
+
+| 用户意图 | 推荐技能 | 技能路径 |
+|----------|----------|----------|
+| CLI工具连不上API | `cli-debugging` | [SKILL.md](C:\Users\22812\.trae\skills\cli-debugging\SKILL.md) |
+| Node.js代理配置 | `cli-debugging` | [SKILL.md](C:\Users\22812\.trae\skills\cli-debugging\SKILL.md) |
+| 环境变量继承问题 | `cli-debugging` | [SKILL.md](C:\Users\22812\.trae\skills\cli-debugging\SKILL.md) |
+| GUI中嵌入的CLI卡死 | `cli-debugging` | [SKILL.md](C:\Users\22812\.trae\skills\cli-debugging\SKILL.md) |
+| 没改配置但坏了 | `cli-debugging` | [SKILL.md](C:\Users\22812\.trae\skills\cli-debugging\SKILL.md) |
+| 代理端口失配 | `cli-debugging` | [SKILL.md](C:\Users\22812\.trae\skills\cli-debugging\SKILL.md) |
+| TUN模式不生效 | `cli-debugging` | [SKILL.md](C:\Users\22812\.trae\skills\cli-debugging\SKILL.md) |
+| 进程环境变量检查 | `cli-debugging` | [SKILL.md](C:\Users\22812\.trae\skills\cli-debugging\SKILL.md) |
+| 永久环境变量设置 | `cli-debugging` | [SKILL.md](C:\Users\22812\.trae\skills\cli-debugging\SKILL.md) |
+| 排查方法论学习 | `cli-debugging` | [SKILL.md](C:\Users\22812\.trae\skills\cli-debugging\SKILL.md) |
+| 从故障排查到自动化 | `cli-debugging` + `openclaw-agent` | 两者结合使用 |
+| 从环境问题到系统编程 | `cli-debugging` + `rust-journey` | 两者结合使用 |
+| 从排查到知识沉淀 | `cli-debugging` + `community-building` | 两者结合使用 |
+
+---
+
+*索引更新时间：2026-07-24*
