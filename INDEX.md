@@ -331,6 +331,56 @@
 | 从决策迷茫到系统决策 | `decision-algorithms` + `thinking-models` | 两者结合使用 |
 | 从职业迷茫到系统成长 | `thinking-models` + `opc-startup` | 两者结合使用 |
 
+### 15. content-dividend
+**定位**：自媒体爆款内容原理与实操方法论工作环境  
+**核心能力**：
+- 16个经过验证的爆款内容原理及其应用方法
+- 自媒体定位科学方法论：自我分析 → 人格设计 → 用户定义
+- 用户增长体系：有效用户三层模型 + 用户关系三维度
+- 选题系统（纺锤结构）：从用户中来 + 从自我中来 + 从结构中来
+- 平台全域运营策略和算法理解
+
+**触发场景**：
+- "我想做自媒体""怎么开始做自媒体""自媒体定位"
+- "怎么写爆款""内容怎么做""选题枯竭了怎么办"
+- "个人IP""人设打造""品牌建设""自媒体运营"
+- "怎么涨粉""用户增长""粉丝运营""铁粉机制"
+- "内容红利""爆款原理""自媒体创业"
+
+**技能路径**：`C:\Users\22812\.trae\skills\content-dividend\SKILL.md`
+
 ---
 
-*索引生成时间：2026-07-24*
+## 技能关系图谱
+
+```
+                        opc-startup
+                       /          \
+              model-harness          ai-native-gtm
+                  |                   |
+           future-prediction    content-dividend
+                  |               /        \
+         decision-algorithms   xiaohongshu-hotspot
+              /        \             |
+  thinking-models    global-investment    social-variables
+        |                                      |
+  ai-productivity-stack              wealth-narrative
+```
+
+## 快速路由表（续）
+
+| 用户意图 | 推荐技能 | 技能路径 |
+|----------|----------|----------|
+| 我需要自媒体定位指导 | `content-dividend` | [SKILL.md](C:\Users\22812\.trae\skills\content-dividend\SKILL.md) |
+| 我需要爆款内容方法论 | `content-dividend` | [SKILL.md](C:\Users\22812\.trae\skills\content-dividend\SKILL.md) |
+| 我需要个人IP打造方案 | `content-dividend` | [SKILL.md](C:\Users\22812\.trae\skills\content-dividend\SKILL.md) |
+| 我需要选题系统 | `content-dividend` | [SKILL.md](C:\Users\22812\.trae\skills\content-dividend\SKILL.md) |
+| 我需要用户增长策略 | `content-dividend` | [SKILL.md](C:\Users\22812\.trae\skills\content-dividend\SKILL.md) |
+| 我需要内容原理解析 | `content-dividend` | [SKILL.md](C:\Users\22812\.trae\skills\content-dividend\SKILL.md) |
+| 从自媒体定位到爆款内容 | `content-dividend` + `xiaohongshu-hotspot` | 两者结合使用 |
+| 从内容创作到品牌变现 | `content-dividend` + `ai-native-gtm` | 两者结合使用 |
+| 从自媒体到个人创业 | `content-dividend` + `opc-startup` | 两者结合使用 |
+
+---
+
+*索引更新时间：2026-07-25*
