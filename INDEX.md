@@ -245,7 +245,8 @@
 - `data-analytics` 负责"怎么分析"：四层分析模型、数据清洗、可视化设计、A/B测试、SQL高级查询、数据治理、AI增强分析
 - `community-building` 负责"怎么连结"：分布式社区建设、"六共"价值观、组织架构设计、节点建设、治理机制、活动组织、知识沉淀
 - `cli-debugging` 负责"怎么排查"：CLI/Node.js 代理环境故障排查、环境变量继承、对照实验定位、排查弯路分析
-- 十五个技能结合，覆盖从商业想法到技术执行、市场增长、决策能力、个人成长、财富管理、趋势洞察、效率提升、社媒运营、叙事创富、AI代理落地、数据驱动分析、社区建设和故障排查的完整人生链路
+- `first-principles-knowledge` 负责"怎么思考底层"：8条跨域共性第一性原理、20套可复用方法论框架、4组对冲观点、4种使用模式（诊断/决策/建设/风险校准）
+- 十六个技能结合，覆盖从商业想法到技术执行、市场增长、决策能力、个人成长、财富管理、趋势洞察、效率提升、社媒运营、叙事创富、AI代理落地、数据驱动分析、社区建设、故障排查和第一性原理认知底层的完整人生链路
 
 ---
 
@@ -283,6 +284,7 @@
 | 2025-2026 数据分析领域综合研究（Tufte可视化原则、DAMA-DMBOK、BI工具对比、Polars/Pandas、SQL高级模式、A/B测试框架） | `data-analytics` 核心输入：四层分析模型、数据清洗流程、可视化设计原则、工具选型指南、统计学核心、数据Storytelling、数据治理、AI增强分析趋势 |
 | 《706青年社区报告 2012-2026》（706支持中心，2026） | `community-building` 核心输入：分布式社区发展历程、"六共"价值观体系、组织架构设计、三种节点形态、社区治理机制、活动组织流程、知识库建设、包容性设计 |
 | 《Claudian 会话卡死排查记录 2026-07-12》 | `cli-debugging` 核心输入：Node.js代理行为、环境变量继承陷阱、TUN模式局限性、对照实验定位法、排查弯路分析、修复持久化方案 |
+| 7份PPT/PDF材料（马北苍战略咨询系列+周星驰逆袭方法论，2026） | `first-principles-knowledge` 核心输入：8条跨域共性第一性原理（复利/放大器/传导链/退出成本/定义权/不可复制性/系统性风险/范式跃迁）、20套可复用方法论框架、4组对冲观点（AI角色/创业vs职场/技术vs人心/长期主义风险） |
 
 ---
 
@@ -464,6 +466,8 @@
   community-building  ← 社区连结引擎（为所有技能提供分布式社区建设和治理方法论）
         |
   cli-debugging  ← 故障排查引擎（为所有技能提供 CLI/环境变量/网络问题的排查方法论）
+        |
+  first-principles-knowledge  ← 认知底层引擎（为所有技能提供8条跨域共性第一性原理和风险校准视角）
 ```
 
 ## 快速路由表（续）
@@ -723,4 +727,46 @@
 
 ---
 
-*索引更新时间：2026-07-24*
+### 23. first-principles-knowledge
+**定位**：第一性原理可复用知识库工作环境  
+**核心能力**：
+- 8条跨域共性第一性原理：复利、放大器、传导链、退出成本、定义权、不可复制性、系统性风险、范式跃迁
+- 20套可复用方法论框架：经营管理类(6)、个人成长类(6)、创业决策类(5)、社会认知类(3)
+- 4组关键对冲观点：AI角色定位、创业vs职场、技术vs人心、长期主义风险
+- 4种使用模式：诊断模式、决策模式、建设模式、风险校准模式
+- 与现有22个技能的关联映射和协作指南
+- 4个场景脚本：企业利润下滑诊断、辞职创业决策、行业转型焦虑、个人成长瓶颈
+
+**触发场景**：
+- "第一性原理""底层逻辑""底层原理""first principles"
+- "复利原理""放大器原理""退出成本""定义权""系统性风险""范式跃迁""不可复制性""传导链"
+- "人心运营""服务利润链""死亡螺旋""OPC伪命题""符号暴力"
+- "风险校准""对冲观点""跨域映射""认知穿透"
+- "周星驰精神""逆袭底层逻辑""四维破局"
+- "这个问题的本质是什么""底层假设是什么""什么条件下成立"
+- "怎么诊断企业问题""要不要创业""行业转型该不该转型"
+
+**技能路径**：`C:\Users\22812\.trae\skills\first-principles-knowledge\SKILL.md`
+
+---
+
+## 快速路由表（续）
+
+| 用户意图 | 推荐技能 | 技能路径 |
+|----------|----------|----------|
+| 我需要第一性原理分析 | `first-principles-knowledge` | [SKILL.md](C:\Users\22812\.trae\skills\first-principles-knowledge\SKILL.md) |
+| 我需要底层逻辑拆解 | `first-principles-knowledge` | [SKILL.md](C:\Users\22812\.trae\skills\first-principles-knowledge\SKILL.md) |
+| 我需要风险校准/对冲视角 | `first-principles-knowledge` | [SKILL.md](C:\Users\22812\.trae\skills\first-principles-knowledge\SKILL.md) |
+| 我需要企业诊断框架 | `first-principles-knowledge` | [SKILL.md](C:\Users\22812\.trae\skills\first-principles-knowledge\SKILL.md) |
+| 我需要创业可行性评估 | `first-principles-knowledge` | [SKILL.md](C:\Users\22812\.trae\skills\first-principles-knowledge\SKILL.md) |
+| 我需要范式转变判断 | `first-principles-knowledge` | [SKILL.md](C:\Users\22812\.trae\skills\first-principles-knowledge\SKILL.md) |
+| 我需要认知穿透模型 | `first-principles-knowledge` | [SKILL.md](C:\Users\22812\.trae\skills\first-principles-knowledge\SKILL.md) |
+| 我需要跨域知识迁移 | `first-principles-knowledge` | [SKILL.md](C:\Users\22812\.trae\skills\first-principles-knowledge\SKILL.md) |
+| 从原理到创业决策 | `first-principles-knowledge` + `opc-startup` | 对冲校准使用 |
+| 从原理到决策算法 | `first-principles-knowledge` + `decision-algorithms` | 增强维度使用 |
+| 从原理到思维模型 | `first-principles-knowledge` + `thinking-models` | 底层增强使用 |
+| 从原理到投资判断 | `first-principles-knowledge` + `wealth-narrative` | 范式判断使用 |
+
+---
+
+*索引更新时间：2026-08-07*
