@@ -1,9 +1,25 @@
 ---
-name: "global-investment"
-description: "全球视野下的投资机会分析工作环境。基于时寒冰《全球视野下的投资机会》等材料，提供系统化的投资分析框架、周期嵌套模型和资产配置工具。Invoke when user asks about investment opportunities, global investment, economic trends, asset allocation, stock market, bond market, precious metals, currency analysis, sector investment, AI investment, new energy, rare earth, nuclear power, TCM, economic cycles, or any framework for investment analysis and decision making."
+name: global-investment
+version: 2.0.0
+description: |
+  全球视野下的投资机会分析工作环境（周期嵌套/资产配置/大宗与主题资产框架）。当用户要求全球宏观趋势分析、股债金汇与大类资产配置框架、周期嵌套推演时使用。不适用于：个股/基金买卖点位建议、跨境资金通道操作（用 cross-border-investment-financing-risk-control）。
 ---
 
-# Global Investment
+# SKILL.md - global-investment
+
+## 任务边界
+
+**做什么**：宏观趋势框架推演、大类资产配置框架、周期嵌套情景分析、数据口径核查、风险预算与对冲成本核算。
+**不做什么**：具体证券买卖建议与点位预测、资产管理/投资咨询持牌业务、跨境资金出境操作。
+**红线**：任何输出必须附“不构成投资建议”声明；框架结论标注“情景推演”而非“预测”；禁止保证收益/必涨必跌话术。
+
+## Gotchas 速查（详见 references/gotchas.md）
+
+1. 金价与“实际利率”（名义利率-通胀预期，TIPS 口径）负相关，拿名义利率解释金价是口径错配
+2. A 股与美股 PE 分位数不可直接对比：行业结构权重差异（银行 vs 科技）会系统性扭曲分位结论
+3. 周期嵌套（康波/朱格拉/基钦）是叙事框架而非可证伪预测模型，输出须标注情景属性
+4. QDII/跨市场配置对人民币投资者有汇率敞口，对冲成本须计入预期收益再比较
+5. 本框架源自时寒冰等个人方法论，属观点性体系而非学术共识，指标无标准口径，结论须独立验证
 
 > 在全球视野下，投资的核心是把握趋势。趋势就在那里，只是需要你穿透迷雾看见它。
 > 这个 Skill 帮你建立系统化的全球投资分析能力，把宏观经济周期、资本流动、产业趋势转化为可执行的资产配置方案。
@@ -670,3 +686,15 @@ description: "全球视野下的投资机会分析工作环境。基于时寒冰
 ---
 
 *技能生成时间：2026-07-24*
+
+
+---
+
+## 输出规范（validate.py 断言）
+
+本技能产出的分析/方案文档，必须同时满足：
+- **应含**：本文件输出规范所列合规要素
+- **不应含**：红线违规模式（详见 scripts/validate.py BAD_VIOLATIONS）
+
+校验命令：`python scripts/validate.py <文档路径>`（exit 0=通过，1=违规或缺失，2=文件错误）
+双样例：`tests/sample_good.md` → 0；`tests/sample_bad.md` → 1。两者必须同时验证通过才视为技能可用。
