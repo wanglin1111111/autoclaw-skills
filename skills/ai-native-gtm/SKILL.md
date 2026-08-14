@@ -1,9 +1,25 @@
 ---
-name: "ai-native-gtm"
-description: "AI-Native Tech GTM（科技产品全球化市场进入）工作环境。基于 Activibe AI 的实战方法论，帮助科技产品通过 AI 驱动的创作者/KOL 营销实现规模化增长。Invoke when user asks about tech product marketing, KOL/influencer marketing, GTM strategy, AI-native marketing agency, creator economy, SaaS marketing, hardware product launch, or global market entry for tech products."
+name: ai-native-gtm
+version: 2.0.0
+description: |
+  AI-Native Tech GTM（科技产品全球化市场进入）工作环境。当科技产品通过 AI 驱动的创作者/KOL 营销、冷启动外联、社区增长进入全球市场时使用。不适用于：国内市场 GTM、付费投放优化、跨境电商内容生产（用 ai-retail-ecommerce-content-creation）。
 ---
 
-# AI-Native Tech GTM
+# SKILL.md - ai-native-gtm
+
+## 任务边界
+
+**做什么**：KOL/创作者合作框架、外联序列（冷邮件/LinkedIn）、社区与 launch 策略、GTM 阶段划分与指标。
+**不做什么**：内容生产流水线、广告投放代运营、销售合同签署。
+**红线**：外联与 KOL 合作必须满足目标国营销法规（CASL/GDPR/CAN-SPAM/FTC 披露）；禁止买名单、群发无退订、隐藏赞助。
+
+## Gotchas 速查（详见 references/gotchas.md）
+
+1. 加拿大 CASL 是严格 opt-in：未获明确同意就发 B2B 冷邮件，个人罚最高 100 万加元/次——比 CAN-SPAM 严一个量级
+2. 美国 CAN-SPAM 最低要求：真实主题、识别发件人、每封含可用的 opt-out（10 天内生效）
+3. FTC 16 CFR Part 255：KOL 免费产品也算物质关联，须披露；'给产品不算广告'是错觉
+4. 自动抓取社交平台数据做外联清单违反平台 ToS（LinkedIn 明令禁止），账号封禁+法律风险
+5. GDPR 下 B2B 邮箱也是个人数据，合法利益（legitimate interest）不是万能豁免，须做平衡测试并可拒收
 
 > 科技产品营销不是流量游戏，而是信任转化。
 > 传统营销工具依赖泛娱乐创作者或简单关键词匹配，导致垂直圈层用户无法听到核心声音。
@@ -505,3 +521,15 @@ description: "AI-Native Tech GTM（科技产品全球化市场进入）工作环
 - 需要“AI 驱动的营销自动化”“达人关系管理”“营销数据看板”
 - 提到“科技博主营销”“垂直圈层推广”“专业信任建立”
 - 提供 Activibe AI 或科技产品 GTM 相关材料，要求提炼可复用的营销方法论
+
+
+---
+
+## 输出规范（validate.py 断言）
+
+本技能产出的分析/方案文档，必须同时满足：
+- **应含**：本文件输出规范所列合规要素
+- **不应含**：红线违规模式（详见 scripts/validate.py BAD_VIOLATIONS）
+
+校验命令：`python scripts/validate.py <文档路径>`（exit 0=通过，1=违规或缺失，2=文件错误）
+双样例：`tests/sample_good.md` → 0；`tests/sample_bad.md` → 1。两者必须同时验证通过才视为技能可用。
